@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Mooli&display=swap");
+body,
+html {
+  margin: 0px;
+  font-family: "Mooli", sans-serif;
+}
+body {
+  background-color: #141313;
+}
+
+.content {
+  text-align: center;
+  background-color: #141313;
+  padding: 8px;
+  margin-top: -8px;
+  color: white;
+  min-height: 800px;
+  width: 700px;
+  margin: auto;
+  line-height: 1.6;
+  font-size: 18px;
+}
+.content > h2,
+.content > h3 {
+  margin-bottom: 0px;
+}
+
+.content > p {
+  margin: 0px;
+  margin-bottom: 16px;
+}
+@media only screen and (max-width: 700px) {
+  .max-video {
+    display: none;
+  }
+  .small-videl {
+    display: block;
+  }
+  .welcome {
+    display: none;
+  }
+  .content {
+    width: 90vw;
+  }
+}
+@media only screen and (min-width: 700px) {
+  .max-video {
+    display: block;
+  }
+  .small-video {
+    display: none;
+  }
+}
+.video {
+  width: 100vw;
+}
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 36px;
+  font-weight: bold;
+  margin: 0px;
+  padding-left: 9px;
+  font-size: 16px;
+}
+
+.navbar {
+  background: #000000;
+  color: white;
+  padding: 8px;
+  margin: 0px;
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  top: 1px;
+}
+
+#maxVideo {
+  margin-top: 33px;
+}
+
+.max-video {
+  position: relative;
+}
+
+.discover {
+  position: absolute;
+  bottom: 72px;
+  user-select: none;
+  cursor: pointer;
+  left: 50%;
+  color: white;
+  background-color: #1a44a7;
+  padding: 16px;
+  border-radius: 23%;
+}
+
+.content > ol {
+  text-align: left;
+  width: 350px;
+  margin: auto;
+}
+
+li > a {
+  color: #52d252;
+  text-decoration: none;
+}
+
+.content > ol {
+  color: #52aed2;
+}
+
+h3 {
+  color: #52d252;
+}
+
+.welcome {
+  color: #52aed2;
+}
