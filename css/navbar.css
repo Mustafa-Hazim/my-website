@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Mooli&display=swap");
+body,
+html {
+  margin: 0px;
+  font-family: "Mooli", sans-serif;
+}
+body {
+  background-color: #141313;
+}
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 36px;
+  font-weight: bold;
+  margin: 0px;
+  padding-left: 0px;
+  font-size: 16px;
+}
+
+.navbar {
+  background: #000000;
+  color: white;
+  padding: 8px;
+  margin: 0px;
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  top: -1px;
+}
+.nav-list > li > a {
+  color: #52d252;
+  text-decoration: none;
+}
